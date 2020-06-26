@@ -1,1 +1,1 @@
-# kubeflow
+# Kubeflow training sample

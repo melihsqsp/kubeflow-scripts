@@ -5,6 +5,7 @@ metadata:
   name: fashion-mnist-job-3
   namespace: kubeflow
 spec:
+  ttlSecondsAfterFinished: 60
   tfReplicaSpecs:
     Chief:
       replicas: 1
